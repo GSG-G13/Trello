@@ -1,6 +1,6 @@
-const fs = require("fs");
-const { join } = require("path");
-const { connection } = require("../../config/connection");
+const fs = require('fs');
+const { join } = require('path');
+const { connection } = require('../../config/connection');
 
 const query = fs.readFileSync(
   join(__dirname, "..", "..", "config", "build.sql"),
