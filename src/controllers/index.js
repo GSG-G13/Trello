@@ -1,14 +1,7 @@
-const express = require("express");
-const users = require("./static");
-const getDATA = require("../database/queries/getData");
-
+const express = require('express');
 const router = express.Router();
+const {getEmployees} = require('./Employee');
 
-router.get("/users", (req, res) => {
-  getDATA()
-  .then(data => res.json(data))
-  .catch(err => console.log(err))
-
-});
+router.get('/employees', getEmployees);
 
 module.exports = router;
