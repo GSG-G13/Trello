@@ -1,0 +1,40 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #f2f2f2;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+
+h1 {
+	font-size: 48px;
+	margin-bottom: 40px;
+}
+
+.buttons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+
+button {
+	background-color: #008CBA;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 24px;
+	margin: 0 20px;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+	background-color: #005F6B;
+}
