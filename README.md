@@ -9,6 +9,9 @@ This is a web application built using the following technologies:
   <img src="https://img.icons8.com/color/48/000000/npm.png"/>
 </p>
 
+## DATABASE SCHEMA
+
+![Database Schema](https://cdn.discordapp.com/attachments/785457882073923585/1093125272229908582/drawSQL-trello-export-2023-04-05.png)
 ## Prerequisites
 
 Before running this application, you will need to have the following software installed on your system:
