@@ -23,3 +23,4 @@ INSERT INTO Employee(name, position, email) VALUES ('John', 'Manager', 'john@gma
 INSERT INTO Tasks(name, description, employee_id) VALUES ('Task 1', 'Description 1', 1)
 , ('Task 2', 'Description 2', 2);
 COMMIT;
+
