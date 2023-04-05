@@ -1,4 +1,4 @@
-const { getTasks } = require("./getTasksController");
+const { getTasks } = require('./getTasksController');
 
 module.exports = {
   getTasks,

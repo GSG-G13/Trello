@@ -1,4 +1,4 @@
-const { getTasksQuery } = require("../../database/queries/getData");
+const { getTasksQuery } = require('../../database/queries/getData');
 
 const getTasks = (req, res) => {
   getTasksQuery()
