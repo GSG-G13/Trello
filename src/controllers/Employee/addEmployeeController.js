@@ -4,7 +4,7 @@ const addEmployeeController = (req, res) => {
   const { name, position, email } = req.body;
 
   addEmployeeQuery(name, position, email)
-    .then((data) => res.status(201).json(data.rows))
+    .then((data) => res.redirect('/add_employee.html'))
     .catch((err) =>
       res.status(500).json({
         Error: true,
