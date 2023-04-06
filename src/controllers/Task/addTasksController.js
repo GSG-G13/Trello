@@ -5,7 +5,7 @@ const addTasksController = (req, res) => {
 
 
   addTasksQuery(name,description,employee_id)
-  .then((data)=>res.status(201).json(data.rows))
+  .then((data)=>res.redirect('/add_task.html'))
   .catch((err)=>res.status(500).json({
     message: err.message,
   })
