@@ -12,7 +12,7 @@ const getTasksQuery = () => {
 
 const getEmployeeTasks = () => {
   const query =
-    ' select employee.name, employee.position,employee.email,tasks.name,tasks.description  from employee join tasks ON tasks.employee_id = employee.id';
+    ' select employee.name AS emp_name, employee.position,employee.email,tasks.name,tasks.description  from employee join tasks ON tasks.employee_id = employee.id';
   return connection.query(query);
 };
 

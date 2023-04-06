@@ -16,28 +16,32 @@ h1 {
 	margin-bottom: 40px;
 }
 
-.buttons {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+table {
+	width: 100%;
+	border-collapse: collapse;
 	margin-top: 50px;
 }
 
-button {
-	background-color: #008CBA;
-	color: #fff;
-	border: none;
-	border-radius: 5px;
-	padding: 10px 20px;
-	font-size: 24px;
-	margin: 0 20px;
-	cursor: pointer;
-	transition: all 0.3s ease-in-out;
+th,
+td {
+	padding: 10px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
 }
 
-button:hover {
-	background-color: #005F6B;
+th {
+	background-color: #008CBA;
+	color: #fff;
 }
+
+td {
+	vertical-align: top;
+}
+
+.employee-tasks {
+	margin-left: 20px;
+}
+
 
 nav {
 	background-color: #333;
@@ -65,4 +69,3 @@ nav ul li a {
 nav ul li a:hover {
 	text-decoration: underline;
 }
-
